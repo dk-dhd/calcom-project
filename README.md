@@ -189,7 +189,7 @@ Ensure *ports 80 & 443* are open in VM Networking.
 ### 🧑‍💻 6.1 Push to GitHub
 bash
 git init
-git remote add origin 
+git remote add origin https://github.com/dk-dhd/calcom-project.git
 git add .
 git commit -m "Initial commit with Cal.com setup"
 git push -u origin main
@@ -198,8 +198,8 @@ git push -u origin main
 ### 📦 6.2 Create ZIP for Submission
 bash
 cd ~
-zip -r calcom-azure-project.zip calcom-azure-project
-scp azureuser@<vm-ip>:/home/azureuser/calcom-azure-project.zip .
+zip -r calcom-azure.zip calcom-azure
+scp azureuser@<vm-ip>:/home/azureuser/calcom-azure.zip .
 
 
 ### 🎥 6.3 Record and Upload Demo Video
