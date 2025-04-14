@@ -1,0 +1,3 @@
+karancalcom.eastus.cloudapp.azure.com {
+    reverse_proxy calcom:3000
+}
